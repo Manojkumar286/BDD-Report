@@ -15,7 +15,7 @@ public class Flipkart extends Baseclass{
  @FindBy(xpath = "//button[text()='✕']")
  private WebElement Login_page;
  
- @FindBy(xpath = "//div[text()='Mobiles & Tablets']")
+ @FindBy(xpath = "//div[text()='Mobiles']")
  private WebElement Mobile;
  
  @FindBy(xpath = "//div[@class='_1kidPb']//child::span[text()='Electronics']")
