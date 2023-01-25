@@ -1,5 +1,5 @@
 fb\com\Locators\Flipkart.class
 fb\com\Locators\login.class
+PageObjectManager\PageObjectManager.class
 fb\com\Locators\Adactin_login.class
 fb\com\Baseclass\Baseclass.class
-PageObjectManager\PageObjectManager.class
