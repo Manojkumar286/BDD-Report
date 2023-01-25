@@ -1,10 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: fb.com.Testrunner.Runner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 22.999 s <<< FAILURE! - in fb.com.Testrunner.Runner
-Mobile Order With Valid Details(Order MI Mobile Test-Case Automation)  Time elapsed: 21.307 s  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 62.502 s <<< FAILURE! - in fb.com.Testrunner.Runner
+Adactin login with Invalid Details #1(Adactin Login Test Case-Automation)  Time elapsed: 21.077 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "fb.com.Baseclass.Baseclass.driver" is null
 
-Mobile Order With Valid Details(Order MI Mobile Test-Case Automation)  Time elapsed: 21.307 s  <<< ERROR!
+Adactin login with Invalid Details #1(Adactin Login Test Case-Automation)  Time elapsed: 21.077 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+
+Adactin login with Invalid Details #2(Adactin Login Test Case-Automation)  Time elapsed: 20.13 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "fb.com.Baseclass.Baseclass.driver" is null
+
+Adactin login with Invalid Details #2(Adactin Login Test Case-Automation)  Time elapsed: 20.13 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+
+Adactin login with Invalid Details #3(Adactin Login Test Case-Automation)  Time elapsed: 20.126 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "fb.com.Baseclass.Baseclass.driver" is null
+
+Adactin login with Invalid Details #3(Adactin Login Test Case-Automation)  Time elapsed: 20.127 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
 

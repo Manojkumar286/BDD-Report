@@ -1,5 +1,6 @@
 package fb.com.Baseclass;
 
+import java.time.Duration;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Baseclass {
 	public static WebDriver driver;
 	
-	public static void browserlaunch(String browser) {
+	public static WebDriver browserlaunch(String browser) {
 		try {
 			if (browser.equalsIgnoreCase("chrome")) {
 				WebDriverManager.chromedriver().setup();
@@ -27,8 +28,9 @@ public class Baseclass {
 		} catch (Exception e) {
 			System.out.println("Unable to browser launch :"+e.getMessage());
 		}
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		window_max();
+		return driver;
 	}
 	public static void window_max() {
 		try {
