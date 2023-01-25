@@ -11,7 +11,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Baseclass {
 	public static WebDriver driver;
@@ -23,7 +22,7 @@ public class Baseclass {
 				System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver();
 			}else if (browser.equalsIgnoreCase("edge")) {
-				WebDriverManager.edgedriver().setup();
+				//WebDriverManager.edgedriver().setup();
 				driver = new EdgeDriver();
 			}
 		} catch (Exception e) {
